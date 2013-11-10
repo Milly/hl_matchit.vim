@@ -1,4 +1,3 @@
-" vim:set fen fdm=marker:
 *hl_matchit.txt*  Vim plugin to highlight matchit.vim.
 
 Version: 0.1.2
@@ -131,7 +130,6 @@ you can set higlight priority.
 >
 	let g:hl_matchit_hl_priority = 10
 <
-
 						*:g:hl_matchit_speed_level*
 you can set speed level because, sometimes "execute %" make a little wait.
 I decide to avoid this problem by speed level.
@@ -168,4 +166,4 @@ CHANGELOG					*hl_matchit-changelog*
 	- Initial version.
 
 ==============================================================================
-vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl
+vim:tw=78:fo=tcq2mM:ts=8:ft=help:norl:fen:fdm=marker:
